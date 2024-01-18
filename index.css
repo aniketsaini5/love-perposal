@@ -1,0 +1,150 @@
+body {
+  background: linear-gradient(90deg in oklab, blue, red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'pristina', cursive;
+}
+
+.coll {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(139, 22, 255), rgb(255, 48, 48));
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  left: -600px;
+  cursor: grab;
+  text-align: justify;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.coll-2 {
+  width: 700px;
+  height: 250px;
+  object-fit: cover;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(87, 255, 207), rgb(255, 48, 48));
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  right: 350px;
+  cursor: grab;
+  text-align: justify;
+}
+
+.coll-2 h2 {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.coll-3 {
+  width: 900px;
+  height: 200px;
+  object-fit: cover;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 25px;
+  background: linear-gradient(90deg, rgb(255, 213, 0), rgb(0, 238, 255));
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  left: -80px;
+  top: 20px;
+  cursor: grab;
+}
+
+.coll-3 h2 {
+  display: inline;
+  justify-content: center;
+  font-size: 50px;
+  position: relative;
+  right: -30px;
+  top: 40px;
+  border-radius: 20px;
+}
+
+.coll-4 {
+  width: 600px;
+  height: 250px;
+  object-fit: cover;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(189, 255, 46), rgb(255, 105, 105));
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  right: -90px;
+  cursor: grab;
+  text-align: justify;
+}
+
+.coll-4 h2 {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+}
+
+.coll-5 {
+  width: 700px;
+  height: 200px;
+  object-fit: cover;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(67, 82, 255), rgb(255, 7, 247));
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  right: -300px;
+  cursor: grab;
+  text-align: justify;
+}
+
+.coll-5 h2 {
+  font-size: 70px;
+}
+
+.coll-6 {
+  width: 800px;
+  height: 370px;
+  object-fit: cover;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 25px;
+  background: linear-gradient(90deg, rgba(255, 0, 204, 0.784), rgba(58, 7, 185, 0.94));
+  position: relative;
+  top: 100px;
+  right: -600px;
+  user-select: none;
+  text-align: justify;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 32px;
+  font-family: 'pristina', cursive;
+}
+
+p {
+  color: rgb(14, 231, 39);
+  text-transform: capitalize;
+  padding: 2vh;
+  font-size: 30px;
+  font-family: 'pristina', cursive;
+}

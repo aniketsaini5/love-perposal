@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniket</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Happy Valentines day Codepen! -->
+    <div class="bgoverlay">
+      <div class="container">
+        <span class="ico">
+          <span class="ico2"></span> <span class="title">Click Me</span>
+        </span>
+        <div class="endtext">
+          <span class="close" title="Restart"><i class="fa fa-times"></i></span>
+          <h1>I love you </h1>
+          <h2>Do you love me</h2>
+         
+          <button id="yesButton">Yes</button>
+          <button id="noButton"> No </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      const ycontent ='I love you too';
+      const ncontent ='NO, I dont love you';
+
+        document.getElementById("yesButton").addEventListener("click",()=>{
+          let whatappURL = "whatsapp://send?text="+encodeURIComponent(ycontent);
+          //for perticular phone no change the phone no '+918888888888' to "your desire phone no"
+         // let whatappURL = "whatsapp://send?phone=+918888888888&text="+encodeURIComponent(ycontent);
+       
+          window.location.href=whatappURL
+        })
+        document.getElementById("noButton").addEventListener("click",()=>{
+          //for perticular phone no change the phone no '+918888888888' to "your desire phone no"
+         // let whatappURL = "whatsapp://send?phone=+91888888888&text="+encodeURIComponent(ncontent);
+
+          let whatappURL = "whatsapp://send?text="+encodeURIComponent(ncontent);
+
+          window.location.href=whatappURL
+        })
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

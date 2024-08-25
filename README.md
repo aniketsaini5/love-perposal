@@ -1,16 +1,16 @@
 
-----------------index.html------------------(only large screen)
+# ----------------index.html------------------(only large screen)
 
 
 
-#Step 1: start with drag all the cards
+# Step 1: start with drag all the cards
 
 
 
 ![image](https://github.com/aniketsaini5/love-perposal.github.io/assets/154746704/b3eaea0d-767b-46f9-84aa-edf9bc991753)
 
 
-#Step 2 : click on click ❤️ here
+# Step 2 : click on click ❤️ here
 
 
 
@@ -20,23 +20,23 @@
 
 
 
-#step 3: click on click me
+# step 3: click on click me
 
 
 <img width="1034" alt="S3" src="https://github.com/aniketsaini5/love-perposal.github.io/assets/154746704/a568dbec-f994-4c9d-8cc8-f46fb202b17f">
 
-#step 4 :clik on yes/no.
+# step 4 :clik on yes/no.
 
 
 <img width="1010" alt="s4" src="https://github.com/aniketsaini5/love-perposal.github.io/assets/154746704/3ce8bca8-9791-4b5b-8d3a-3c09d2552bce">
 
-#step 5: it redirect to whatsapp app. and open a fordword window.(make sure you have whatsapp app install in your system
+# step 5: it redirect to whatsapp app. and open a fordword window.(make sure you have whatsapp app install in your system
 
 
 <img width="920" alt="s5" src="https://github.com/aniketsaini5/love-perposal.github.io/assets/154746704/8bb194f7-35ed-4973-a80b-27eeb36e5012">
 
 
-#info :
+# info :
 you can change it to open in desire phone form here
 
 
@@ -46,7 +46,7 @@ commentout the link to use .
 
 
 
-##it goes like.
+## it goes like.
 
 
 
